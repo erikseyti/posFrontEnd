@@ -24,9 +24,14 @@
 });
 
 $("#btn_exibir").click(function(){
+
   nome = $("#nome").val();
-  alert(nome);
-  $("#exibir_nome").html(nome);
+  if(nome !="")
+  {
+    alert(nome);
+    $("#exibir_nome").html(nome);
+
+  }
 
 });
 

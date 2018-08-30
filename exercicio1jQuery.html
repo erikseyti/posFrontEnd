@@ -23,7 +23,7 @@
   <script type="text/javascript">
   $(document).ready(function(){
   $("#btn_paragrafo").click(function(){
-      $("p").hide();
+      $("p").toggle(1000);
   });
 
   $("p").click(function(){
@@ -34,6 +34,7 @@
   {
     $("p").show();
     $("p").css("color", "blue");
+    $("p").css("font-size","30px");
   });
 
 });
